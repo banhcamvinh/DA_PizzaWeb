@@ -1,0 +1,36 @@
+.reg form{
+    background-color: var(--lwhite);
+    border-radius: 20px;
+    padding: 30px 20px;
+    margin-top: 20px;
+}
+.reg{
+    padding: 50px 0;
+}
+.reg form input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+.reg form p{
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.reg form a{
+    color: var(--primary);
+    text-decoration: underline;
+}
+.reg form button{
+    margin-top: 10px;
+    background-color: var(--primary);
+    width: 100%;
+    padding: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+.reg input[type=radio]{
+	display: inline-block;
+	width: auto;
+	margin: 0 10px;
+}

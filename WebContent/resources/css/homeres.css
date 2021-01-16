@@ -1,0 +1,39 @@
+/* tablet and mobie */
+@media only screen and (max-width:1023px){
+    .home-section-4__content{
+        margin-top: 20px;
+        padding: 0 50px 15px 50px;
+    }
+    .home-section-4__des p{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        text-overflow: ellipsis;
+    }
+ }   
+ 
+ 
+ /* tablet */
+ @media only screen and (min-width:740px)and (max-width:1023px){
+ }
+ 
+ 
+ /* mobile */
+ @media only screen and (max-width:739px){
+     .home-section-1 h1{
+         font-size: 4rem;
+     }
+     .home-section-2 .col{
+         margin-top: 40px;
+     }
+     .home-section-2__item__content{
+         padding: 0 60px;
+     }
+     .home-section-3__btn{
+         margin-top: 0;
+         margin-bottom: 40px;
+         padding: 5px 10px;
+     }
+ 
+ }

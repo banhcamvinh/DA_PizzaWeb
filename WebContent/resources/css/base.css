@@ -1,0 +1,52 @@
+:root{
+   --black: #101315;
+   --lblack: #25292c;
+   --tblack: rgba(0, 0, 0, 0.801);
+   --white: white;
+   --lwhite: rgb(236, 236, 236);
+   --primary: #ff8d29;  
+   --bprimary: #e66b00;  
+   --gray: gray;
+   --lgray: rgba(180, 180, 180, 0.692);
+   --red: red;
+   --lred: rgb(211, 7, 7);
+   --blue: rgb(0, 60, 224);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 1.6rem;
+    background-color: var(--lgray);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-style: none;
+    display: block;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+button,input{
+    border: none;
+    outline: none;  
+}
+.container{
+    max-width: 1140px;
+}

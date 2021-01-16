@@ -1,0 +1,50 @@
+.food__detail{
+    padding: 50px 0;
+}
+.food__detail .row{
+    background-color: var(--lblack);
+    border-radius: 15px;
+    color: var(--lwhite);
+}
+.food__detail .col{
+    padding: 50px 40px;
+}
+.food__detail-des h2{
+    font-size: 3rem;
+    color: var(--primary);
+}
+.food__detail-img{
+    margin-top: 20px;
+}
+.food__detail span{
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+}
+.food__detail-option p{
+    color: var(--primary);
+    font-size: 2rem;
+}
+.food__detail-option p:not(:first-child){
+    margin-top: 10px;
+}
+.food__detail-option input{
+    margin: 0 10px;
+}
+.food__detail-option .btnord{
+    width: 100%;
+    padding: 20px 0;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+.food__detail-option .btnord:hover{
+    background-color: var(--primary);
+}
+.total-price {
+    margin-top: 10px;
+}
+.total-price .price-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}

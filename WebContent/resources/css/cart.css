@@ -1,0 +1,113 @@
+.cart{
+    padding: 50px 0;
+}
+.cart form{
+    margin-top: 20px;
+    background-color: var(--white);
+}
+.cart button{
+    cursor: pointer;
+}
+button.btnpay{
+    background-color: var(--lred);
+    color: var(--lwhite);
+    width: 100%;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+button.btnpay:hover{
+    background-color: var(--red);
+}
+.cart-list{
+	background-color: white;
+}
+.cart-total{
+    padding: 10px 0;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+.cart-total p{
+    display: inline-block;
+    margin: 0 20px;
+}
+.cart-item__info .col{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+.cart .btndel a{
+    padding: 5px 10px;
+    background-color: var(--gray);
+    color: white;
+}
+.cart .btndel a:hover{
+    background-color: var(--lred);
+}
+.cart-item__quantity{
+    font-size: 0;
+}
+.cart-item__quantity button,
+.cart-item__quantity span{
+    height: 20px;
+    width: 20px;
+    line-height: 2rem;
+    display: inline-block;
+    font-size: 1.4rem;
+    text-align: center;
+}
+.cart-item__quantity button:hover{
+    background-color: var(--gray);
+}
+.cart .cart-item{
+    padding: 15px 20px;
+    border-bottom: 1px solid var(--gray);
+}
+
+.address .grid.wide,.payment .grid.wide,.voucher .grid.wide{
+    background-color: var(--white);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+.address li, .payment li{
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+h5{
+    color: var(--primary);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+.voucher form{
+    display: flex;
+}
+.voucher input{
+    flex: 1;
+    border: 1px solid var(--gray);
+    padding: 10px;
+}
+.voucher button,.address button{
+    padding: 5px 10px;
+    transition: all 0.3s ease;
+}
+.voucher button:hover,
+.address button:hover,
+.payment button:hover{
+    background-color: var(--primary);
+}
+input[type="radio"]{
+    margin-right: 5px;
+}
+.address input[type="text"]{
+	border: 1px solid var(--gray);
+	display: block;
+	width: 100%;
+	padding: 10px 5px;
+	margin: 6px;
+}
+.car-item__price{
+	text-align: right;
+}

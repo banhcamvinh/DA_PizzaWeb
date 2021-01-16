@@ -1,0 +1,110 @@
+.section--slide{
+    min-height: 100vh;
+    background: url("../img/slide_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.section--slide__overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.section--slide .container{
+    color: var(--lwhite);
+    text-align: center;
+    z-index: 2;
+}
+.section--slide h1{
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 1rem;
+}
+
+.home-section-3{
+    text-transform: uppercase;
+    background-image: url("../img/slide_2.jpg");
+}
+.home-section-3 .container{
+    flex: 1;
+}
+.home-section-3 .center{
+    font-size: 2rem;
+}
+.home-section-3__btn{
+    background-color: var(--primary);
+    padding: 10px 30px;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+.home-section-3__btn:hover{
+    background-color: var(--bprimary);
+}
+
+.home-section-2{
+    background-color: var(--black);
+    color: var(--lwhite);
+    padding: 30px 0;
+}
+.home-section-2 i{
+    font-size: 5rem;
+    color: var(--primary);
+}
+.home-section-2__item{
+    text-align: center;
+}
+.home-section-2__item
+.home-section-2__item p{
+    font-size: 1.2rem;
+}
+.home-section-2__item h3{
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+.home-section-4{
+    background-color: var(--black);
+    color: var(--lwhite);
+}
+.home-section-4__img img{
+    filter: brightness(0.8);
+}
+.home-section-4__content span{
+    color: var(--primary);
+}
+.home-section-4 .col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-section-4__des{
+    padding: 0 60px;
+}
+.home-section-4__des p{
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+.home-section-4 label{
+    text-decoration: underline;
+    color: var(--primary);
+}
+.home-section-4 .andi{
+    display: none;
+}
+.home-section-4 #doctiep:checked ~p{
+    -webkit-line-clamp: inherit;
+}
+.home-section-4 #doctiep:checked ~.doctiep{
+    display: none;
+}
